@@ -1,6 +1,6 @@
 ---
 title: "Введение в `lingtypology`"
-author: "[Г. Мороз](mailto:agricolamz@gmail.com) <br> Презентация доступна: [tinyurl.com/y9lbrzf6](https://tinyurl.com/y9lbrzf6)"
+author: "[Г. Мороз](mailto:agricolamz@gmail.com) <br> Презентация доступна: [tinyurl.com/y823zxyr](tinyurl.com/y823zxyr)"
 editor_options: 
   chunk_output_type: console
 ---
@@ -242,7 +242,7 @@ map.feature(languages = df$language,
             label.hide = FALSE)
 ```
 
-### Task 4.1
+### Task 3.1
 Создайте карту с чукотским, французским,  кана и нии и добавьте подписи, которые не исчезают:
 ```{r, echo = FALSE}
 map.feature(languages = c("Chukchi", "French", "Khana", "Nii"),
@@ -250,7 +250,7 @@ map.feature(languages = c("Chukchi", "French", "Khana", "Nii"),
             label.hide = FALSE)
 ```
 
-### Task 4.2
+### Task 3.2
 Создайте карту с бодскими языками и добавьте миникарту, используя аргумент `minimap = TRUE`:
 ```{r, echo = FALSE}
 map.feature(languages = lang.aff("Bodish"),
