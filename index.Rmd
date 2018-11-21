@@ -1,0 +1,17 @@
+---
+title: "Лингвистические картографирование: задачи, lingtypology"
+author: "[Г. Мороз](mailto:agricolamz@gmail.com)"
+output:
+  html_document:
+    toc: false
+---
+
+```{r, message=FALSE, echo=FALSE}
+knitr::opts_chunk$set(message = FALSE, comment=NA)
+cat(sessionInfo()$R.version$version.string)
+cat(paste("lingtypology version: 1.0.13"))
+```
+
+* установите [R](https://cran.r-project.org/)
+* установите [RStudio Desktop](http://www.rstudio.com/download) (это не обязательно, но с ним удобнее)
+* если не хотите ничего устанавливать, все можно делать в [RStudio Cloud](https://rstudio.cloud/), по началу он медленный, но потом ведет себя как обычный RStudio
